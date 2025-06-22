@@ -1,0 +1,28 @@
+name: Jukebox
+version: '1.0'
+main: rxl.Jukebox
+api-version: '1.21'
+author: RxL
+description: Jukebox plugin - Custom portable music player
+
+commands:
+  jukebox:
+    description: Get a Jukebox item
+    usage: /<command> [help]
+    permission: jukebox.give
+    permission-message: You don't have permission to use this command!
+
+permissions:
+  jukebox.*:
+    description: Gives access to all Jukebox features
+    default: false
+    children:
+      jukebox.use: true
+      
+  jukebox.give:
+    description: Allows getting Jukebox items
+    default: op
+    
+  jukebox.use:
+    description: Allows using Jukebox items
+    default: true
