@@ -50,7 +50,6 @@ public class DataManager {
             try (FileWriter writer = new FileWriter(dataFile)) {
                 writer.write(json);
             }
-            Jukebox.getPluginLogger().info("Jukebox data saved successfully!");
         } catch (IOException e) {
             Jukebox.getPluginLogger().log(Level.SEVERE, "Failed to save Jukebox data", e);
         }
