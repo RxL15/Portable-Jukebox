@@ -43,7 +43,6 @@ public class JukeboxManager {
         this.plugin = plugin;
         this.dataManager = dataManager;
         loadData();
-        plugin.getServer().getScheduler().runTaskTimerAsynchronously(plugin, this::saveData, 6000L, 6000L);
     }
 
     private void loadData() {

@@ -88,6 +88,7 @@ public class GUIManager {
             if (plugin.getJukeboxManager().isPlaying(jukeboxId) && !playingDiscStillPresent) {
                 plugin.getJukeboxManager().stopPlaying(jukeboxId, player);
             }
+            plugin.getJukeboxManager().saveData();
         }
     }
     
