@@ -316,6 +316,7 @@ public class JukeboxManager {
             case MUSIC_DISC_CREATOR -> org.bukkit.Sound.MUSIC_DISC_CREATOR;
             case MUSIC_DISC_CREATOR_MUSIC_BOX -> org.bukkit.Sound.MUSIC_DISC_CREATOR_MUSIC_BOX;
             case MUSIC_DISC_PRECIPICE -> org.bukkit.Sound.MUSIC_DISC_PRECIPICE;
+            case MUSIC_DISC_TEARS -> org.bukkit.Sound.MUSIC_DISC_TEARS;
             default -> null;
         };
     }
