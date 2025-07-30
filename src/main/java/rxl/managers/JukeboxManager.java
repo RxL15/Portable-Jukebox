@@ -341,6 +341,7 @@ public class JukeboxManager {
             case MUSIC_DISC_CREATOR -> "Creator";
             case MUSIC_DISC_CREATOR_MUSIC_BOX -> "Creator (Music Box)";
             case MUSIC_DISC_PRECIPICE -> "Precipice";
+            case MUSIC_DISC_TEARS -> "Tears";
             default -> "Unknown";
         };
     }
@@ -366,6 +367,7 @@ public class JukeboxManager {
             case MUSIC_DISC_CREATOR -> 177 * 20L; // 2:57
             case MUSIC_DISC_CREATOR_MUSIC_BOX -> 170 * 20L; // 2:50
             case MUSIC_DISC_PRECIPICE -> 294 * 20L; // 4:54
+            case MUSIC_DISC_TEARS -> 175 * 20L; // 2:55
             default -> 200 * 20L; // 3:20 (default)
         };
     }
